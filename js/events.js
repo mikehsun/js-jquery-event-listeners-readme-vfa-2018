@@ -14,9 +14,9 @@ function frameIt(){
 function pressIt(){
   $('form').on('keydown',function(key){
     if(key.which == 83){
-      alert('g was pressed')
+      alert('g was pressed');
     }
-  })
+  });
 }
 
 $(document).ready(function(){
